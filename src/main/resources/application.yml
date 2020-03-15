@@ -1,0 +1,6 @@
+
+#All can connect to the DB using MySql workbench
+#Use sm-portal-db.cbhkkpofzghu.us-east-1.rds.amazonaws.com as Host name 3306 as port
+#Use Welcome1A as passWord and sm-portal-db as DB name
+db-name: sm-portal-db
+db-pass: Welcome1A #DxkveN5gAmlid0OeQZFu #Welcome1A
