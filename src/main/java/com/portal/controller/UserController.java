@@ -1,6 +1,5 @@
 package com.portal.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import com.portal.model.User;
@@ -12,8 +11,8 @@ import java.util.List;
 @RequestMapping("/user")
 public class UserController {
 	
-	@Autowired
-	User user;
+	/*@Autowired
+	User user;*/
 	
 	// Get All users
 	@GetMapping("/user-list")
