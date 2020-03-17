@@ -22,7 +22,7 @@ spring.datasource:
 # Hibernate ddl auto (create, create-drop, validate, update)
 spring.jpa:
   properties.hibernate.dialect : org.hibernate.dialect.MySQL57Dialect #MySQL8Dialect #MySQL55Dialect #MySQL5Dialect #MySQLInnoDBDialect #MySQLMyISAMDialect #MySQL5InnoDBDialect
-  hibernate.ddl-auto : update #create-drop
+  hibernate.ddl-auto : create-drop #update #create-drop
   
 #Get Actuatr health
 management:
