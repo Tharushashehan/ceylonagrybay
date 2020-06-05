@@ -1,4 +1,4 @@
-package com.portal.service;
+package com.portal.server.service;
 
 public class UserServiceImpl implements UserService{
 
