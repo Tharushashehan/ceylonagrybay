@@ -1,4 +1,4 @@
-package com.portal.server.model;
+package com.portal.model;
 
 import java.io.Serializable;
 import java.util.Date;

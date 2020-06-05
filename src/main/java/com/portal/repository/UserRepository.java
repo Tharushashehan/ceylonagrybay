@@ -1,7 +1,7 @@
-package com.portal.server.repository;
+package com.portal.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.portal.server.model.User;
+import com.portal.model.User;
 
 public interface UserRepository extends JpaRepository <User, Long> {
 
