@@ -26,11 +26,9 @@ spring.jpa:
   
 #Get Actuatr health
 management:
-  security.enabled : false
-  endpoints:
-    web:
-      exposure:
-        exclude: "*"
+   endpoint:
+      health:
+        show-details: "ALWAYS"
   
 
   
