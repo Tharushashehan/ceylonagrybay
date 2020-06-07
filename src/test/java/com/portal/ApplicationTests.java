@@ -1,6 +1,6 @@
 package com.portal;
 
-class SmPortalApplicationTests {
+class ApplicationTests {
 	public String showHello() {
 		return "Hello World! this is the test class";
 	}

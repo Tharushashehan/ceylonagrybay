@@ -46,8 +46,8 @@ public class UserController {
 	    User user = userRepository.findById(userId)
 	            .orElseThrow(() -> new ResourceNotFoundException("user", "id", userId));
 
-	    user.setF_name(userDetails.getF_name());
-	    user.setL_name(userDetails.getF_name());
+	    user.setFirstName(userDetails.getFirstName());
+	    user.setLastName(userDetails.getLastName());
 
 	    User updatedNode = userRepository.save(user);
 	    return updatedNode;
